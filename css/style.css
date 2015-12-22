@@ -11,8 +11,9 @@ body {
 }
 
 #my_navbar {
-    background-color: rgba(0, 153, 0, 0.5);
+    background-color: rgba(145, 212, 235, 0.75);
     border-bottom: green 1px solid;
+    text-align: left;
 }
 
 #my_navbar a {
@@ -21,15 +22,15 @@ body {
 }
 
 #nav_toggle {
-    border: green 1px solid;
+    border: #91D4EB 1px solid;
 }
 
 #nav_toggle span {
-    background-color: green;
+    background-color: #91D4EB;
 }
 
 #nav_toggle:hover {
-    background-color: green;
+    background-color: #91D4EB;
 }
 
 #nav_toggle:hover span {
