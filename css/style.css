@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'custom';
+    src: url('../fonts/coda.ttf');
+}
+
+body {
+    background-image: url('../images/background.png');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+#my_navbar {
+    background-color: rgba(0, 153, 0, 0.5);
+    border-bottom: green 1px solid;
+}
+
+#my_navbar a {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#nav_toggle {
+    border: green 1px solid;
+}
+
+#nav_toggle span {
+    background-color: green;
+}
+
+#nav_toggle:hover {
+    background-color: green;
+}
+
+#nav_toggle:hover span {
+    background-color: white;
+}
+
+#navbar-brand {
+    font-weight: bold;
+}
+
+.title {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.title_cont {
+    vertical-align: middle;
+    padding-top: 15em;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 6em;
+    color: white;
+    font-family: "custom", cursive;
+    text-align: center;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+}
+
+.title p {
+    margin: 0;
+    font-size: 3em;
+    color: white;
+    font-family: "custom", cursive;
+    text-align: center;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+}
+
+.about_me {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 2.5em;
+}
+
+.am_title {
+    color: white;
+    font-size: 4em;
+    font-family: "custom", cursive;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+    padding-bottom: 1em;
+}
+
+.am_group {
+    text-align: center;
+}
+
+.my_face {
+    border-radius: 100%;
+    border: 7px orange solid;
+    width: 25%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75);;
+}
+
+.about_me p {
+    color: white;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+@media screen and (max-width: 1199px) {
+    .my_face {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .my_face {
+        border-radius: 100%;
+        border: 7px orange solid;
+        width: 35%;
+    }
+
+    .about_me p {
+        color: white;
+        padding-top: 3em;
+        padding-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-position: center;
+    }
+    .title_cont {
+        vertical-align: middle;
+        padding-top: 12em;
+    }
+
+    .title p {
+        font-size: 2em;
+    }
+    .about_me p {
+        text-align: center;
+    }
+
+    .my_face {
+        min-width: 17em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title h1 {
+        font-size: 4.25em;
+    }
+
+    .title p {
+        font-size: 1.5em;
+    }
+}
