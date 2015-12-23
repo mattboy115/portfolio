@@ -11,7 +11,7 @@ body {
 }
 
 #my_navbar {
-    background-color: rgba(145, 212, 235, 0.75);
+    background-color: rgba(145, 212, 235, 0.5);
     border-bottom: green 1px solid;
     text-align: left;
 }
@@ -89,15 +89,24 @@ body {
 
 .my_face {
     border-radius: 100%;
-    border: 7px orange solid;
+    border: 10px #57BFD4 solid;
     width: 25%;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75);;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75);
+    margin-bottom: 2em;
+}
+
+.about_me hr {
+    border-bottom: 1px #333 solid;
+    width: 60%;
 }
 
 .about_me p {
     color: white;
-    padding-top: 5em;
+    padding-top: 2em;
     padding-bottom: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 5px black;
 }
 
 @media screen and (max-width: 1199px) {
