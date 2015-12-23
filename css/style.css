@@ -11,7 +11,7 @@ body {
 }
 
 #my_navbar {
-    background-color: rgba(145, 212, 235, 0.5);
+    background-color: rgba(145, 212, 235, 0.35);
     border-bottom: green 1px solid;
     text-align: left;
 }
@@ -70,9 +70,12 @@ body {
     text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
 }
 
+.section {
+    padding-top: 2.5em;
+}
+
 .about_me {
     background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 2.5em;
 }
 
 .am_title {
@@ -100,13 +103,24 @@ body {
     width: 60%;
 }
 
-.about_me p {
+.section p {
     color: white;
     padding-top: 2em;
     padding-bottom: 2em;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     text-shadow: 2px 2px 5px black;
+}
+
+#websites {
+    background-color: rgba(255,0,0,0.2);
+}
+
+footer {
+    color: white;
+    background-color: #111;
+    text-align: center;
+    padding: 1em;
 }
 
 @media screen and (max-width: 1199px) {
@@ -118,11 +132,10 @@ body {
 @media screen and (max-width: 990px) {
     .my_face {
         border-radius: 100%;
-        border: 7px orange solid;
         width: 35%;
     }
 
-    .about_me p {
+    .section p {
         color: white;
         padding-top: 3em;
         padding-bottom: 1em;
@@ -143,6 +156,8 @@ body {
     }
     .about_me p {
         text-align: center;
+        margin-left: 4%;
+        margin-right: 4%;
     }
 
     .my_face {
