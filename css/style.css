@@ -127,6 +127,36 @@ footer {
     padding: 1em;
 }
 
+a.image-link {
+    position: relative;
+    width: 100%;
+    text-decoration: none !important;
+    text-align: center;
+
+  }
+  a.image-link:after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-bottom: -2.5em;
+    width: inherit;
+    background: rgba(0,0,0,0.75);
+    text-decoration: none !important;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+  }
+  a.image-link:hover:after, a.image-link:focus:after {
+    opacity: 1.0;
+    margin-bottom: 3px;
+  }
+
 @media screen and (max-width: 1199px) {
     .my_face {
         width: 30%;
