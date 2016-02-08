@@ -13,12 +13,38 @@ body {
     font-family: sans-serif;
 }
 
+.subsection {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
 .section {
     padding-top: 2.5em;
 }
 
+.skills {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skills h3 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skills ul {
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 0;
+}
+
 .about_me {
     background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 40px;
 }
 
 .am_title {
@@ -32,7 +58,6 @@ body {
 .am_group {
     text-align: center;
 }
-
 
 .about_me hr {
     border-bottom: 1px #333 solid;
@@ -50,6 +75,10 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     text-shadow: 2px 2px 5px black;
+}
+
+.am_group p {
+    font-size: 1.7em;
 }
 
 #websites {
@@ -211,6 +240,11 @@ a.image-link {
         padding-top: 3em;
         padding-bottom: 1em;
     }
+
+    .portfolio p {
+        margin-top: 5px;
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -220,6 +254,11 @@ a.image-link {
     .title_cont {
         vertical-align: middle;
         padding-top: 12em;
+    }
+
+    .section {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .title p {
@@ -234,6 +273,10 @@ a.image-link {
     .my_face {
         min-width: 17em;
     }
+
+    .skills li{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -241,7 +284,24 @@ a.image-link {
         font-size: 4.25em;
     }
 
+    .am_group p {
+        font-size: 1.2em;
+    }
+
+    .sec-text {
+        font-size: 1em;
+        line-height: 18px;
+    }
+
+    .am_title {
+        font-size: 3em;
+    }
+
     .title p {
         font-size: 1.5em;
+    }
+
+    .skills li{
+        font-size: .7em;
     }
 }

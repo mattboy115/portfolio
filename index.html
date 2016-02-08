@@ -1,218 +1,281 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <!--Meta Tags-->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Matt Lee's Portfolio</title>
-        <!--CSS-->
-        <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
-        <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
-        <!--Javascript-->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="js/bootstrap.js"></script>
-		<script scr="js/script.js" type="text/javascript"></script>
-        <!--Fonts-->
-        <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-        <div class="title"> <!--Title Section-->
-            <nav class='site_nav navbar navbar-inverse navbar-fixed-top' id='my_navbar'>
-    			<div class='container'>
-    				<div class='navbar-header'>
-    					<button type='button' id="nav_toggle" class='navbar-toggle' data-toggle='collapse' data-target='#navbar-collapse'>
-    						<span class='icon-bar'></span>
-    						<span class='icon-bar'></span>
-    						<span class='icon-bar'></span>
-    						<span class='icon-bar'></span>
-    					</button>
+<head>
+    <!--Meta Tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matt Lee's Portfolio</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/lightbox.min.css" media="screen" title="no title" charset="utf-8">
+    <!--Javascript-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <!--Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="title"> <!--Title Section-->
+        <nav class='site_nav navbar navbar-inverse navbar-fixed-top' id='my_navbar'>
+            <div class='container'>
+                <div class='navbar-header'>
+                    <button type='button' id="nav_toggle" class='navbar-toggle' data-toggle='collapse' data-target='#navbar-collapse'>
+                        <span class='icon-bar'></span>
+                        <span class='icon-bar'></span>
+                        <span class='icon-bar'></span>
+                        <span class='icon-bar'></span>
+                    </button>
 
-    					<a href='#' class='navbar-brand'>Matt Lee Portfolio</a>
-    				</div><!--End Navbar Header-->
-    				<div class=' collapse navbar-collapse' id='navbar-collapse'>
-    					<ul class='nav navbar-nav'>
-    						<li><a href="#about_me">About Me</a></li>
-    						<li><a href="#websites">Websites</a></li>
-    						<li><a href="#graphics">Graphics</a></li>
-    						<li><a href="#comics">Comics</a></li>
-    						<li><a href="#contact">Contact</a></li>
-    					</ul>
-    				</div>
-    			</div><!--End Container-->
-    		</nav><!--End Navbar-->
-            <div class="title_cont">
-                <h1>Matt Lee</h1>
-                <p>
-                    Web Developer/Designer
-                </p>
+                    <a href='#' class='navbar-brand'>Matt Lee Portfolio</a>
+                </div><!--End Navbar Header-->
+                <div class=' collapse navbar-collapse' id='navbar-collapse'>
+                    <ul class='nav navbar-nav'>
+                        <li><a class='nav_links' href="#about_me">About Me</a></li>
+                        <li><a class='nav_links' href="#websites">Websites</a></li>
+                        <li><a class='nav_links' href="#graphics">Graphics</a></li>
+                        <li><a class='nav_links' href="#comics">Comics</a></li>
+                        <li><a class='nav_links' href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div><!--End Container-->
+        </nav><!--End Navbar-->
+        <div class="title_cont">
+            <h1>Matt Lee</h1>
+            <p>
+                Web Developer/Designer
+            </p>
+        </div>
+    </div>
+
+    <div id="about_me" class="section about_me"> <!--About Me Section-->
+        <div class="container">
+            <div class="row">
+                <div class="am_group col-12-lg">
+                    <h2 class="am_title">About Me</h2>
+                    <img src="images/my_face.png" class="my_face" alt="my_face" />
+                    <hr>
+                    <p class='sec-text container'>
+                        I love a challenge.<br>
+                        <br>
+                        That's why I decided to become a programmer. It challenges me every day and I love it.
+
+                        In my spare time I play video games, narrate horror stories on YouTube, listen to music, practice speed solving techniques for the Rubik's Cube, and design web pages for fun. I am also learning Japanese.<br>
+                        <br>
+                        I can do web pages, I can do graphics like banners and logos and buttons for the web. I also do a wide variety of things with voice acting. Check out the examples below for more information.
+                    </p>
+                    <div class="container skills" style="text-align: left;">
+                        <h3>Skills</h3>
+                        <ul class="col-lg-3 col-md-3 col-lg-offset-1 col-md-offset-1 col-sm-5 col-sm-offset-1">
+                            <li>Photoshop</li>
+                            <li>Illustrator</li>
+                            <li>HTML/CSS</li>
+                            <li>Javascript</li>
+                            <li>UI/UX Design</li>
+                        </ul>
+                        <ul class="col-lg-3 col-md-3 col-lg-offset-1 col-md-offset-1 col-sm-5 col-sm-offset-1">
+                            <li>Bootstrap</li>
+                            <li>Graphic Design</li>
+                            <li>Fabricator (Sass Compiler)</li>
+                            <li>Wireframing</li>
+                            <li>jQuery</li>
+                        </ul>
+                        <ul class="col-lg-3 col-md-3 col-lg-offset-1 col-md-offset-1 col-sm-5 col-sm-offset-1">
+                            <li>Voice Acting</li>
+                            <li>Voice Over</li>
+                            <li>Video Editing</li>
+                            <li>Computer Hardware</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
 
-        <div id="about_me" class="section about_me"> <!--About Me Section-->
-            <div class="container">
+    <div id="websites" class="section websites"> <!--Websites Section-->
+        <div class="container">
+            <div class="row">
+                <h2 class="am_title">Websites</h2>
+                <p class='sec-text container'>
+                    I am still in school so I haven't had any projects yet that have truly tested my skills. These are the few sites I have created. I also have some experimental elements from when I was first learning code but I don't think they're that noteworthy.
+                </p>
                 <div class="row">
-                    <div class="am_group col-12-lg">
-                        <h2 class="am_title">About Me</h2>
-                        <img src="images/my_face.png" class="my_face" alt="my_face" />
-                        <hr>
-                        <p class='container'>
-                            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio">
+                        <a title="Cover Art Haven" target="_blank" class="image-link" href="http://mattboy115.github.io/dws2/week%204/assignment/index.html"><img src="images/site_01.png" alt="Cover Art Haven Site"/></a>
+                        <p>
+                            Cover Art Haven is a project I am currently working on. It will be a cover art database where one can download music cover art.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio">
+                        <a title="Mario RPG 2 Comic Site" target="_blank" class="image-link" href="http://mattboy115.github.io/dws2/week%203/assignment/index.html"><img src="images/site_02.png" alt="Mario rpg site"/></a>
+                        <p>
+                            This is a site for a web comic that I've been working on since high school. There is still more I can do to improve this site.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio">
+                        <a title="Sunset Pub &amp Grill" target="_blank" class="image-link" href="http://mattboy115.github.io/pub_site/index.html"><img src="images/site_03.png" alt="pub site"/></a>
+                        <p>
+                            A design project I made for school in Web Standards I. I think it came out really great. Also this restaurant doesn't exist.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio">
+                        <a title="The Scary Monkey Show" target="_blank" class="image-link" href="http://mattboy115.github.io/scarymonkeyshow/index.html"><img src="images/site_04.png" alt="scary monkey show"/></a>
+                        <p>
+                            I am recreating a fan site of a TV show from my childhood. The original site can be found <a target="_blank" style="color: limegreen;" href="https://web.archive.org/web/20070429095033/http://www.thescarymonkeyshow.com/features/updates.htm">here</a>. I contacted the original site owner and he gave me all the original files.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio">
+                        <a title="Code Commandos" target="_blank" class="image-link" href="http://mattboy115.github.io/code_commandos_site/index.html"><img src="images/site_05.png" alt="code commandos"/></a>
+                        <p>
+                            I built this for my friend who is trying to make a startup. She hasn't used it yet but the project should be moving forward soon.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div id="websites" class="section websites"> <!--Websites Section-->
-            <div class="container">
+    <div id="graphics" class="section graphics"> <!--Graphics Section-->
+        <div class="container">
+            <div class="row">
+                <h2 class="am_title">Graphics/Art</h2>
+                <p class='sec-text container'>
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                </p>
+                <hr style="width: 40%">
+                <h3 class='subsection'>Logos</h3>
                 <div class="row">
-                    <h2 class="am_title">Websites</h2>
-                    <p class='container'>
-                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-                    </p>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 portfolio">
-                            <a title="Cover Art Haven" target="_blank" class="image-link" href="http://mattboy115.github.io/dws2/week%204/assignment/index.html"><img src="images/site_01.png" alt="backpacker"/></a>
-                            <p>
-                                Cover Art Haven is a project I am currently working on. It will be a cover art database where one can download music cover art.
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 portfolio">
-                            <a title="Mario RPG 2 Comic Site" target="_blank" class="image-link" href="http://mattboy115.github.io/dws2/week%203/assignment/index.html"><img src="images/site_02.png" alt="Mario rpg site"/></a>
-                            <p>
-                                This is a site for a web comic that I've been working on since high school. There is still more I can do to improve this site.
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 portfolio">
-                            <a title="Sunset Pub &amp Grill" target="_blank" class="image-link" href="http://mattboy115.github.io/pub_site/index.html"><img src="images/site_03.png" alt="pub site"/></a>
-                            <p>
-                                A design project I made for school. I think it came out really great. Also this restaurant doesn't exist.
-                            </p>
-                        </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio">
+                        <a title="Sunset Pub &amp Grill" data-lightbox="site_01" href="images/mb115_logo.png"><img src="images/mb115_logo_thumb.png" alt="pub site"/></a>
+                        <p>
+                            I made this logo several years ago. I use it for a lot of things. Mostly for my voice acting work.
+                        </p>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 portfolio">
-                            <a title="The Scary Monkey Show" target="_blank" class="image-link" href="http://mattboy115.github.io/scarymonkeyshow/index.html"><img src="images/site_04.png" alt="scary monkey show"/></a>
-                            <p>
-                                I am recreating a fan site of a TV show from my childhood. The original site can be found <a target="_blank" style="color: limegreen;" href="https://web.archive.org/web/20070429095033/http://www.thescarymonkeyshow.com/features/updates.htm">here</a>. I contacted the original site owner and he gave me all the original files.
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 portfolio">
-                            <a title="Code Commandos" target="_blank" class="image-link" href="http://mattboy115.github.io/code_commandos_site/index.html"><img src="images/site_05.png" alt="code commandos"/></a>
-                            <p>
-                                I built this for my friend who is trying to make a startup. She hasn't used it yet but the project should be moving forward soon.
-                            </p>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio">
+                        <a title="Code Commandos" data-lightbox="site_01" href="images/nav_icon.png"><img src="images/nav_icon_thumb.png" alt="haven logo"/></a>
+                        <p>
+                            This is a logo I built for my site I am trying to build, Cover Art Haven.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio">
+                        <a title="Code Commandos" data-lightbox="site_01" href="images/pokemoncartrige.png"><img src="images/pokemoncartrige_thumb.png" alt="haven logo"/></a>
+                        <p>
+                            I made this fictional game cartrige for a contest on Cracked.com. It wasn't used but it's still great.
+                        </p>
+                    </div>
+                </div>
+                <hr style="width: 40%">
+                <h3 class='subsection'>Digital Art</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio">
+                        <a title="The Scary Monkey Show" data-lightbox="site_01" href="images/game.png"><img src="images/game_thumb.png" alt="scary monkey show"/></a>
+                        <p>
+                            I couldn't help but make this sprite art from the game Rampage.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio">
+                        <a title="Lake of Rage" data-lightbox="site_01" href="images/pokemon2.png"><img src="images/pokemon2_thumb.png" alt="Pokemon"/></a>
+                        <p>
+                            Here is my sprite art depiction of the Lake of Rage from Pokemon Gold and Silver.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio">
+                        <a title="Route 1" data-lightbox="site_01" href="images/pokemon1.png"><img src="images/pokemon1_thumb.png" alt="Pokemon"/></a>
+                        <p>
+                            This was my first Pokemon sprite art. I love scenes like this.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio">
+                        <a title="Route 1" data-lightbox="site_01" href="images/futurama.png"><img src="images/Futurama_thumb.png" alt="Pokemon"/></a>
+                        <p>
+                            This is a cover photo for a Facebook group I put together using stock pictures of the characters.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="comics" class="section comics"> <!--Websites Section-->
+        <div class="container">
+            <div class="row">
+                <h2 class="am_title">Comics</h2>
+                <p class='sec-text container'>
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                </p>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 portfolio">
+                        <a title="Cover Art Haven" target="_blank" class="image-link" href="http://mattboy115.github.io/dws2/week%204/assignment/index.html"><img src="images/site_01.png" alt="backpacker"/></a>
+                        <p>
+                            Cover Art Haven is a project I am currently working on. It will be a cover art database where one can download music cover art.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 portfolio">
+                        <a title="Mario RPG 2 Comic Site" target="_blank" class="image-link" href="http://mattboy115.github.io/dws2/week%203/assignment/index.html"><img src="images/site_02.png" alt="Mario rpg site"/></a>
+                        <p>
+                            This is a site for a web comic that I've been working on since high school. There is still more I can do to improve this site.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 portfolio">
+                        <a title="Sunset Pub &amp Grill" target="_blank" class="image-link" href="http://mattboy115.github.io/pub_site/index.html"><img src="images/site_03.png" alt="pub site"/></a>
+                        <p>
+                            A design project I made for school. I think it came out really great. Also this restaurant doesn't exist.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 portfolio">
+                        <a title="The Scary Monkey Show" target="_blank" class="image-link" href="http://mattboy115.github.io/scarymonkeyshow/index.html"><img src="images/site_04.png" alt="scary monkey show"/></a>
+                        <p>
+                            I am recreating a fan site of a TV show from my childhood. The original site can be found <a target="_blank" style="color: limegreen;" href="https://web.archive.org/web/20070429095033/http://www.thescarymonkeyshow.com/features/updates.htm">here</a>. I contacted the original site owner and he gave me all the original files.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 portfolio">
+                        <a title="Code Commandos" target="_blank" class="image-link" href="http://mattboy115.github.io/code_commandos_site/index.html"><img src="images/site_05.png" alt="code commandos"/></a>
+                        <p>
+                            I built this for my friend who is trying to make a startup. She hasn't used it yet but the project should be moving forward soon.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="section contact"> <!--Websites Section-->
+        <div class="container">
+            <div class="row">
+                <h2 class="am_title">Contact</h2>
+                <!-- Button trigger modal -->
+                <button style="margin-bottom: 40px;" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                    How to Contact
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Methods of Contact</h4>
+                            </div>
+                            <div class="modal-body">
+                                I am a booty butt.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div id="graphics" class="section graphics"> <!--Graphics Section-->
-            <div class="container">
-                <div class="row">
-                    <h2 class="am_title">Graphics</h2>
-                    <p class='container'>
-                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-                    </p>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 portfolio">
-                            <a title="Cover Art Haven" target="_blank" class="image-link" href="http://mattboy115.github.io/dws2/week%204/assignment/index.html"><img src="images/site_01.png" alt="backpacker"/></a>
-                            <p>
-                                Cover Art Haven is a project I am currently working on. It will be a cover art database where one can download music cover art.
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 portfolio">
-                            <a title="Mario RPG 2 Comic Site" target="_blank" class="image-link" href="http://mattboy115.github.io/dws2/week%203/assignment/index.html"><img src="images/site_02.png" alt="Mario rpg site"/></a>
-                            <p>
-                                This is a site for a web comic that I've been working on since high school. There is still more I can do to improve this site.
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 portfolio">
-                            <a title="Sunset Pub &amp Grill" target="_blank" class="image-link" href="http://mattboy115.github.io/pub_site/index.html"><img src="images/site_03.png" alt="pub site"/></a>
-                            <p>
-                                A design project I made for school. I think it came out really great. Also this restaurant doesn't exist.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 portfolio">
-                            <a title="The Scary Monkey Show" target="_blank" class="image-link" href="http://mattboy115.github.io/scarymonkeyshow/index.html"><img src="images/site_04.png" alt="scary monkey show"/></a>
-                            <p>
-                                I am recreating a fan site of a TV show from my childhood. The original site can be found <a target="_blank" style="color: limegreen;" href="https://web.archive.org/web/20070429095033/http://www.thescarymonkeyshow.com/features/updates.htm">here</a>. I contacted the original site owner and he gave me all the original files.
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 portfolio">
-                            <a title="Code Commandos" target="_blank" class="image-link" href="http://mattboy115.github.io/code_commandos_site/index.html"><img src="images/site_05.png" alt="code commandos"/></a>
-                            <p>
-                                I built this for my friend who is trying to make a startup. She hasn't used it yet but the project should be moving forward soon.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <footer>&copy Matthew Lee Web and Graphic Works. All rights Reserved.</footer>
 
-        <div id="comics" class="section comics"> <!--Websites Section-->
-            <div class="container">
-                <div class="row">
-                    <h2 class="am_title">Comics</h2>
-                    <p class='container'>
-                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-                    </p>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 portfolio">
-                            <a title="Cover Art Haven" target="_blank" class="image-link" href="http://mattboy115.github.io/dws2/week%204/assignment/index.html"><img src="images/site_01.png" alt="backpacker"/></a>
-                            <p>
-                                Cover Art Haven is a project I am currently working on. It will be a cover art database where one can download music cover art.
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 portfolio">
-                            <a title="Mario RPG 2 Comic Site" target="_blank" class="image-link" href="http://mattboy115.github.io/dws2/week%203/assignment/index.html"><img src="images/site_02.png" alt="Mario rpg site"/></a>
-                            <p>
-                                This is a site for a web comic that I've been working on since high school. There is still more I can do to improve this site.
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 portfolio">
-                            <a title="Sunset Pub &amp Grill" target="_blank" class="image-link" href="http://mattboy115.github.io/pub_site/index.html"><img src="images/site_03.png" alt="pub site"/></a>
-                            <p>
-                                A design project I made for school. I think it came out really great. Also this restaurant doesn't exist.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 portfolio">
-                            <a title="The Scary Monkey Show" target="_blank" class="image-link" href="http://mattboy115.github.io/scarymonkeyshow/index.html"><img src="images/site_04.png" alt="scary monkey show"/></a>
-                            <p>
-                                I am recreating a fan site of a TV show from my childhood. The original site can be found <a target="_blank" style="color: limegreen;" href="https://web.archive.org/web/20070429095033/http://www.thescarymonkeyshow.com/features/updates.htm">here</a>. I contacted the original site owner and he gave me all the original files.
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 portfolio">
-                            <a title="Code Commandos" target="_blank" class="image-link" href="http://mattboy115.github.io/code_commandos_site/index.html"><img src="images/site_05.png" alt="code commandos"/></a>
-                            <p>
-                                I built this for my friend who is trying to make a startup. She hasn't used it yet but the project should be moving forward soon.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 
-        <div id="contact" class="section contact"> <!--Websites Section-->
-            <div class="container">
-                <div class="row">
-                    <h2 class="am_title">Contact</h2>
-                    <p class='container'>
-                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-                    </p>
-
-                </div>
-            </div>
-        </div>
-
-        <footer>&copy Matthew Lee Web and Graphic Works. All rights Reserved.</footer>
-
-
-
-    </body>
+</body>
 </html>
